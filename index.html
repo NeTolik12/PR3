@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="Begin">
+    <img class="Beg" src="/images/Hero Header.svg" alt="">
+    <p class="text1">
+      Discover And Create NFTs
+    </p>
+  </div>
+  <header class="header">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger">
+      <div></div>
+    </div>
+    <div class="menu">
+      <div>
+        <ul>
+          <li><a href='#'>STATS</a></li>
+          <li><a href='#'>SELL</a></li>
+          <li><a href='#'>CREATORS</a></li>
+          <li><a href='#'>DISCOVER</a></li>
+      </div>
+    </div>
+    <div class="btn1">
+      <button class="Explore" id="myBtn">About us</button>
+    </div>
+    <div id="myModal" class="mod">
+      <div class="mod-content">
+        <span class="close">&times;</span>
+        <img class="FT" src="images/okno.png" alt="">
+        <p class="window-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellendus?</p>
+        <p class="window-text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos optio repellat minima atque dicta consectetur culpa voluptas eos nulla ducimus officia maxime laborum non debitis rerum natus, nemo obcaecati distinctio!</p>
+      </div>
+  </header>
+  <div class="fil">
+    <h1 class="catalog1">Explore</h1>
+    <h1 class="catalog2">Marketplace</h1>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')">All</button>
+      <button class="btn" onclick="filterSelection('small')">NuEvey</button>
+      <button class="btn" onclick="filterSelection('big')">Sun-Glass</button>
+    </div>
+    <div class="container">
+      <div class="filterDiv big">
+        <div>
+          <img class="img1" src="/images/nach.png" alt="">
+          <p class="NFT">Sun-Glass</p>
+          <p class="price">7.000 ₽</p>
+          <p class="buy">В КОРЗИНУ</p>
+        </div>
+      </div>
+      <div class="filterDiv small">
+        <img class="img2" src="/images/ser.png" alt="">
+        <p class="NFT">NuEvey</p>
+        <p class="price">6.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+      <div class="filterDiv big">
+        <img class="img3" src="/images/or.png" alt="">
+        <p class="NFT">Sun-Glass</p>
+        <p class="price">1.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+      <div class="filterDiv big">
+        <img class="img4" src="/images/red.png" alt="">
+        <p class="NFT">Sun-Glass</p>
+        <p class="price">4.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+      <div class="filterDiv big">
+        <img class="img5" src="/images/or.png" alt="">
+        <p class="NFT">Sun-Glass</p>
+        <p class="price">3.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+      <div class="filterDiv small">
+        <img class="img6" src="/images/ser.png" alt="">
+        <p class="NFT">NuEvey</p>
+        <p class="price">17.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+      <div class="filterDiv big">
+        <img class="img7" src="/images/red.png" alt="">
+        <p class="NFT">Sun-Glass</p>
+        <p class="price">16.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+      <div class="filterDiv big">
+        <img class="img8" src="/images/nach.png" alt="">
+        <p class="NFT">Sun-Glass</p>
+        <p class="price">10.000 ₽</p>
+        <p class="buy">В КОРЗИНУ</p>
+      </div>
+    </div>
+  </div>
+  <div class="tabs">
+    <section class="section">
+      <div class="container1">
+        <div class="section__tabs tabs">
+          <div class="tabs__head">
+            <div class="tabs__caption" data-tab="home">ОПЛАТА</div>
+            <div class="tabs__caption" data-tab="portfolio">ОТЗЫВЫ</div>
+          </div>
+          <div class="tabs__body">
+            <div class="tabs__content" data-tab="home">
+              <p class="payment">СПОСОБ ОПЛАТЫ:</p>
+              <li>БАНКОВСКОЙ КАРТОЙ ПРИ ОФОРМЛЕНИИ ЗАКАЗА ЧЕРЕЗ САЙТ</li>
+              <li>КРИПТОВАЛЮТОЙ ОНЛАЙН</li>
+              <p class="action">Акции:</p>
+              <li><b>Две NFT Sun-Glass на сумму 2.000₽</b> - ПРИ ЗАКАЗЕ НА СУММУ ОТ 15.000 РУБЛЕЙ</p>
+              </li>
+              <li><b>Две NFT NuEvey на сумму 5.000₽</b> - ПРИ ЗАКАЗЕ НА СУММУ ОТ 30.000 РУБЛЕЙ</li>
+            </div>
+            <div class="tabs__content" data-tab="portfolio">
+              <div class="feedback">
+                <p class="best">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, magnam!</p>
+                <p class="chel">Александр</p>
+              </div>
+
+              <div class="feedback">
+                <p class="best">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consequatur.</p>
+                <p class="chel">Артём</p>
+              </div>
+
+              <div class="feedback">
+                <p class="best">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, impedit.
+                </p>
+                <p class="chel">Денис</p>
+              </div>
+
+              <div class="feedback">
+                <p class="best">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, minus!</p>
+                <p class="chel">Даниил</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container2">
+    <div class="carousel">
+      <div class="carousel-window">
+        <div class="carousel-slides">
+          <div class="carousel-item">
+            <img src="/images/Recently.svg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/Best Sellers.svg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/notification.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <a href="#" class="carousel-prev">
+        <span class="carousel-prev-icon">&lt;</span>
+      </a>
+      <a href="#" class="carousel-next">
+        <span class="carousel-next-icon">&gt;</span>
+      </a>
+    </div>
+  </div>
+  <div id="faq">
+    <h1 class="faq1">Frequently Asked <br>
+      <span class="k1">Questions</span>
+    </h1>
+    <ul>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What is an NFT?</h2>
+        <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At ducimus hic accusantium
+          perferendis reprehenderit, eligendi aliquid cupiditate quis, accusamus magni rerum rem iure minus, provident
+          aut tempora laborum voluptate! Eveniet!</p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What can I use NFTs for?</h2>
+        <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, magni!</p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What is the difference between an NFT and cryptocurrency?</h2>
+        <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, dolores.</p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>How much is an NFT worth?</h2>
+        <p class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, quae.</p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>How do I purchase an NFT on your platform ?</h2>
+        <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, eveniet.</p>
+      </li>
+    </ul>
+  </div>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Slider(document.querySelector('.carousel'));
+    });
+  </script>
+</body>
+
+</html>
